@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "🕵️ Fake News Detector",
+  "version": "1.0",
+  "description": "Detect fake news using AI",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icons/icon.png"
+  },
+  "icons": {
+    "48": "icons/icon.png"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": [
+    "http://localhost:8000/*"
+  ]
+}
