@@ -89,7 +89,7 @@ Output:
 
 ## 📸 Demo Screenshots
 ![Screenshot 2025-07-09 004828](https://github.com/user-attachments/assets/1a9ac454-5286-427e-a371-336525615f47)
-![Screenshot 2025-07-09 005058](https://github.com/user-attachments/assets/00abf6e4-cb5d-4a22-abea-bdb6daadc848)
+![Screenshot 2025-07-09 005058](https://github.com/user-attachments/assets/7d3f657d-cfbd-415c-94cb-902a7dd5e751)
 ![Screenshot 2025-07-09 004949](https://github.com/user-attachments/assets/bb1171df-6569-48a3-aaf9-4d171fb16dcf)
 
 ---
