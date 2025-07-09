@@ -21,6 +21,13 @@ An advanced Chrome Extension + FastAPI-based tool that detects fake news in real
 - Real-world test support (URL + content classification)
 
 ---
+## Dataset Details
+
+### Primary Dataset: `fake_or_real_news.csv`
+This dataset is used to train the ML model. It contains labeled news articles with titles, body content, and labels.
+
+**Source:**  
+- [Kaggle Fake News Dataset](https://www.kaggle.com/clmentbisaillon/fake-and-real-news-dataset)
 
 ## 📁 Folder Structure
 
@@ -59,7 +66,7 @@ Body: In June 2025, Tata Motors outlined a bold plan: ₹32,000 crore (~$4 billi
 Source: Reuters 
 ```
 
-✅ Output:
+Output:
 ```
 ✔️ REAL (Legislation News)
 ```
@@ -73,7 +80,7 @@ Body: During May 2025 tensions, videos of airstrikes, drone strikes, and explosi
 Source: NDTV/PIB
 ```
 
-❌ Output:
+Output:
 ```
 ❌ FAKE
 ```
@@ -81,9 +88,9 @@ Source: NDTV/PIB
 ---
 
 ## 📸 Demo Screenshots
+![Screenshot 2025-07-09 004828](https://github.com/user-attachments/assets/1a9ac454-5286-427e-a371-336525615f47)
 ![Screenshot 2025-07-09 005058](https://github.com/user-attachments/assets/00abf6e4-cb5d-4a22-abea-bdb6daadc848)
 ![Screenshot 2025-07-09 004949](https://github.com/user-attachments/assets/bb1171df-6569-48a3-aaf9-4d171fb16dcf)
-![Screenshot 2025-07-09 004828](https://github.com/user-attachments/assets/1a9ac454-5286-427e-a371-336525615f47)
 
 ---
 
