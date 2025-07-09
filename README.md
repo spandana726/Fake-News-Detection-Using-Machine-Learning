@@ -1,13 +1,13 @@
-# 📰 Fake News Detection System with ML & NLP 🧠
+# 📰 Fake News Detection System with ML & NLP 
 
 An advanced Chrome Extension + FastAPI-based tool that detects fake news in real-time using **Natural Language Processing (NLP)** and **Machine Learning (ML)** techniques.
 
 > Uses TF-IDF + Ensemble Classifier (LogisticRegression + LinearSVC + RandomForest)  
-> 🚀 Accuracy: ~95–96% | ⚙️ Works in browser + backend | 🔍 NLP-powered predictions
+> Accuracy: ~95–96% | ⚙️ Works in browser + backend |  NLP-powered predictions
 
 ---
 
-## 🚀 Features
+## Features
 
 - **NLP Preprocessing**: stopword removal, cleaning, n-grams
 - **TF-IDF Vectorization**: for numerical transformation of text
@@ -16,9 +16,9 @@ An advanced Chrome Extension + FastAPI-based tool that detects fake news in real
   - LinearSVC
   - Random Forest (VotingClassifier)
 - **Contextual override rules** to improve accuracy
-- ✅ Chrome Extension UI with emoji-based results
-- 🔐 Secure prediction via local FastAPI backend
-- 🧪 Real-world test support (URL + content classification)
+- Chrome Extension UI with emoji-based results
+- Secure prediction via local FastAPI backend
+- Real-world test support (URL + content classification)
 
 ---
 
@@ -41,7 +41,7 @@ fake_news_detector/
 
 ---
 
-## 🧠 Model Overview
+## Model Overview
 
 | Component        | Description                             |
 |------------------|-----------------------------------------|
@@ -52,10 +52,11 @@ fake_news_detector/
 
 ---
 
-## 🔍 Example 1: Real News
+## Example 1: Real News
 ```
-Title: Indian state Karnataka proposes jail terms for spreading 'fake news'
-Body: Karnataka proposes jail time for misinformation under a new bill...
+Title: Tata Motors to invest up to $4 billion over 5 years for EVs, new cars
+Body: In June 2025, Tata Motors outlined a bold plan: ₹32,000 crore (~$4 billion) over five years toward electric vehicle R&D and production, marking a push toward sustainable transport innovation.....
+Source: Reuters 
 ```
 
 ✅ Output:
@@ -67,8 +68,9 @@ Body: Karnataka proposes jail time for misinformation under a new bill...
 
 ## 🚨 Example 2: Fake News
 ```
-Title: NASA confirms alien base on Mars
-Body: A leaked report claims NASA found structures on Mars resembling alien outposts...
+Title: Operation Sindoor military attack claims
+Body: During May 2025 tensions, videos of airstrikes, drone strikes, and explosions (including video game footage) were shared as real events in “Operation Sindoor.” PIB and NDTV quickly labelled them false.....
+Source: NDTV/PIB
 ```
 
 ❌ Output:
@@ -78,13 +80,14 @@ Body: A leaked report claims NASA found structures on Mars resembling alien outp
 
 ---
 
-## 📸 Demo Screenshot
-
-![demo](https://github.com/user/screenshots/fake-news-extension-demo.png)
+## 📸 Demo Screenshots
+![Screenshot 2025-07-09 005058](https://github.com/user-attachments/assets/00abf6e4-cb5d-4a22-abea-bdb6daadc848)
+![Screenshot 2025-07-09 004949](https://github.com/user-attachments/assets/bb1171df-6569-48a3-aaf9-4d171fb16dcf)
+![Screenshot 2025-07-09 004828](https://github.com/user-attachments/assets/1a9ac454-5286-427e-a371-336525615f47)
 
 ---
 
-## ⚙️ How to Run
+## How to Run
 
 ### 1. Clone and Setup
 ```bash
@@ -115,7 +118,7 @@ python main.py
 
 ---
 
-## 🧪 Test Dataset Sources
+## Test Dataset Sources
 
 | Dataset             | Description                       |
 |---------------------|-----------------------------------|
@@ -124,7 +127,7 @@ python main.py
 
 ---
 
-## 🌐 API Structure
+## API Structure
 
 | Route     | Method | Description                       |
 |-----------|--------|-----------------------------------|
@@ -142,7 +145,7 @@ POST /predict
 
 ---
 
-## 🛠 Future Enhancements
+## Future Enhancements
 
 - Upgrade to DistilBERT model
 - Highlight suspicious words/phrases
@@ -151,7 +154,7 @@ POST /predict
 
 ---
 
-## 🙌 Credits
+## Credits
 
 - FastAPI  
 - Scikit-learn  
@@ -162,6 +165,4 @@ POST /predict
 ---
 
 ## 👩‍💻 Author
-
 **Spandana Gunaganti**  
-Built with ❤️ to improve media literacy
